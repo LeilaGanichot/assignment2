@@ -1,0 +1,35 @@
+Date went through Git Lab Tutorials: 10/14/2021
+Setup GitHub account: 3/17/2021
+
+
+1. leilag@leilas-air assignment2 % git push
+Username for 'https://github.com': LeilaGanichot
+Password for 'https://LeilaGanichot@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 849 bytes | 849.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/LeilaGanichot/assignment2.git 
+   f4975e5..968f01a  master -> master
+
+2. git rev-list --all --count and 9
+
+3. git log -1 --format="%ad" -- README.md and Thu Oct 14 21:43:11 2021 -0700
+
+4. Branches are used in a Git repository to allow yout to develop features fix bugs, or safely experiment with new ideasin a contained area of your repository. You can also use a branch to publish  GitHub
+Pages site.
+
+5. The difference between git log and git status is that git log shows a list of all the commits made to a repository and git status shows the current state of your Git working directory and staging area.
+
+6. git log --follow -- Vehicle.h
+
+7. git log --all --grep='file'
+
+8. (I) Inheritance is that new data types can be defined as extensions of previously defined type, rather than having to be defined from scratch. (II) Polymorphism is when a method can be apllied to objects of different classes. (III) Encapsulation is the gathering into one unit of all asepcts of the real-world entity modeled by a unit.
+
+9. In the "Dictator and Lieutenants" workflow everyone makes pull from the one central/blessed repository, only the dictator can push to it and in the "Integation Manager" workflow each developer makes push to their own public repository and pull from the blessed/centeral repository.
+
+10. A team of 100 developers would benefit from following the "Dictators and Lieutenants" workflow instead of the "Centeralized" workflow because the work is checked through multiple levels and this makes it easier for conflicts to be resolved. While in a "Centeralized" workflow everyone must check their own work and solve their own conflicts.
